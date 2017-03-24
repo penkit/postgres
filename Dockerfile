@@ -1,0 +1,5 @@
+FROM postgres:9.6-alpine
+
+ENV POSTGRES_USER penkit
+ENV POSTGRES_PASSWORD penkit
+ENV POSTGRES_DB penkit
